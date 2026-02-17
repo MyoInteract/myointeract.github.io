@@ -308,6 +308,37 @@ body {
   font-style: italic;
 }
 
+/* Institution logo row under authors */
+.institution-logos {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.institution-logos .institution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.institution-logos-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.institution-logos img {
+  height: 80px;
+  width: auto;
+}
+
 /* Section Titles */
 .title.is-3 {
   font-family: 'Inter', sans-serif !important;
