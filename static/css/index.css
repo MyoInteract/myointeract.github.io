@@ -283,6 +283,31 @@ body {
   height: auto;
 }
 
+/* Smaller teaser and carousel videos */
+.teaser video {
+  display: block;
+  height: 50%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.carousel-video {
+  display: block;
+  height: 50%;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Make trained policies carousel narrower and centered */
+#interaction-video-carousel {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+#interaction-video-carousel .item {
+  margin: 0.75rem auto;
+}
+
 /* Per-image sizing overrides for carousel images */
 .carousel-img-teaser {
   width: 100%;
